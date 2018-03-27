@@ -1,0 +1,22 @@
+
+body {
+    background-color: rgb(169, 221, 189);
+    padding: 30px;
+    text-align: center
+}
+
+p { 
+    font-size: 22px;
+    padding: 30px;
+    color: purple;
+    background-color: lightslategray;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+h3 {
+    text-decoration: underline;    
+}
+
