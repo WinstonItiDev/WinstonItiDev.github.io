@@ -9,7 +9,7 @@
 
 body {
 	font: 75% georgia, sans-serif;
-	line-height: 1.88889;
+
 	color: black;
 
     background: purple url("../images/maxresdefault.jpg");
@@ -30,20 +30,9 @@ p {
     color: white;
 }
 
-a:link { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #B7A5DF;
-	}
-a:visited { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #D4CDDC;
-	}
-a:hover, a:focus, a:active { 
-	text-decoration: underline; 
-	color: #9685BA;
-	}
+a {
+    color: white;
+}
 
 dl {
     padding: 25px;
@@ -58,7 +47,6 @@ dl {
     margin-right: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
-    display: block;
     float: right;
 }
 
