@@ -22,12 +22,26 @@ body {
     font-size: 20px;
 }
 
+dt {
+    padding: 5px;
+    color: black;
+}
+
+footer {
+    color: white;
+    font-size: 18px;
+}
+
+.blog {
+    padding: 40px;
+}
+
 header {
     padding: 20px;
 }
 
 p {
-    color: red;
+    color: black;
 }
 
 a {
