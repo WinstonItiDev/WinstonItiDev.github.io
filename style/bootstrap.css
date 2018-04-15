@@ -4,70 +4,6 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-
-* {
-  outline: 0px solid red;
-}
-
-#row1 {
-  height: 125px;
-
-}
-
-#row2 {
-  height: 250px;
-}
-
-#question {
-  margin-top: 20px;
-  color: lightcoral;
-}
-
-#answer {
-  margin-top: 20px;
-}
-
-#title {
-  margin-top: 15px;
-}
-
-#ul-list {
-  margin-top: 20px;
-}
-
-@media only screen and (max-width: 993px) {
-  #row2 {
-    height: 100%;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  #title-1 {
-    font-size: 30px;
-  }
-}
-
-@media only screen and (min-width: 458px) {
-
-  #title-1 {
-    font-size: 25px;
-  }
-
-  #row2 {
-    height: 30%;
-  }
-}
-
-@media only screen and (min-width: 440px) {
-  #row2 {
-    height: 1%;
-  }
-}
-
-
-
-
-
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -99,6 +35,56 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+* {
+  outline: 0px solid red;
+}
+
+.header-title {
+  font-size: 25px;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 23px;
+}
+
+.home-button {
+
+  margin-top: 10px;
+  margin-right: 10px;
+  text-align: right;
+  display: block;
+  float: right;
+
+}
+
+.page1-button {
+  margin-top: 10px;
+  margin-right: 10px;
+  text-align: right;
+  display: block;
+  float: right;
+}
+
+.page2-button {
+  margin-top: 10px;
+  margin-right: 10px;
+  text-align: right;
+  display: block;
+  float: right;
+}
+
+.page-break {
+  height: 20px;
+  background-color: rgba(128, 128, 128, 0.336);
+}
+
+.q1 {
+  margin-top: 20px;
+}
+
+.p1 {
+  margin-top: 20px;
+}
+
 *,
 *::before,
 *::after {
@@ -123,14 +109,13 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 }
 
 body {
-  margin: 0;
+  margin: 0px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: rgb(255, 255, 255);
+  color: #c9e0f8;
   text-align: left;
-  padding: 50px;
   background: rgba(0, 0, 0, 0.404) url("../images/original.jpeg");
   height: 100%; 
   background-attachment: fixed;
@@ -624,16 +609,11 @@ pre code {
   overflow-y: scroll;
 }
 
-.page-header {
-  display: flex;
-  height: 100px;
-  background-color: grey;
-}
-
 .container {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  margin-top: 20px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -688,16 +668,6 @@ pre code {
 .no-gutters > [class*="col-"] {
   padding-right: 0;
   padding-left: 0;
-}
-
-/*custom id by winston iti*/
-
-#icon {
-  background-color: red;
-}
-
-#header-title {
-  
 }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
