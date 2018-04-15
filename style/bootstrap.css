@@ -85,6 +85,10 @@
   margin-top: 20px;
 }
 
+.footer1 {
+  height: 300px;
+}
+
 *,
 *::before,
 *::after {
