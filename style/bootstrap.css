@@ -20,6 +20,7 @@
 
 #question {
   margin-top: 20px;
+  color: lightcoral;
 }
 
 #answer {
@@ -127,16 +128,16 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: black;
+  color: rgb(255, 255, 255);
   text-align: left;
   padding: 50px;
-  background: purple url("../images/maxresdefault.jpg");
+  background: rgba(0, 0, 0, 0.404) url("../images/original.jpeg");
   height: 100%; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-blend-mode: lighten;
+  background-blend-mode: darken;
 }
 
 [tabindex="-1"]:focus {

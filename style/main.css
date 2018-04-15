@@ -10,21 +10,21 @@
 body {
 	font: 75% georgia, sans-serif;
 
-	color: black;
+	color: rgb(255, 255, 255);
 
-    background: purple url("../images/maxresdefault.jpg");
+    background: rgba(0, 0, 0, 0.356) url("../images/original.jpeg");
     height: 100%; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: lighten;
+    background-blend-mode: darken;
     font-size: 20px;
 }
 
 dt {
     padding: 5px;
-    color: black;
+    color: grey;
 }
 
 footer {
@@ -41,7 +41,7 @@ header {
 }
 
 p {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 a {
