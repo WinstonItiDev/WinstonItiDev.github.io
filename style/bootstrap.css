@@ -35,59 +35,6 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-* {
-  outline: 0px solid red;
-}
-
-.header-title {
-  font-size: 25px;
-  float: left;
-  margin-top: 10px;
-  margin-bottom: 23px;
-}
-
-.home-button {
-
-  margin-top: 10px;
-  margin-right: 10px;
-  text-align: right;
-  display: block;
-  float: right;
-
-}
-
-.page1-button {
-  margin-top: 10px;
-  margin-right: 10px;
-  text-align: right;
-  display: block;
-  float: right;
-}
-
-.page2-button {
-  margin-top: 10px;
-  margin-right: 10px;
-  text-align: right;
-  display: block;
-  float: right;
-}
-
-.page-break {
-  height: 20px;
-  background-color: rgba(128, 128, 128, 0.336);
-}
-
-.q1 {
-  margin-top: 20px;
-}
-
-.p1 {
-  margin-top: 20px;
-}
-
-.footer1 {
-  height: 300px;
-}
 
 *,
 *::before,
@@ -113,7 +60,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 }
 
 body {
-  margin: 0px;
+  margin: 20px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-weight: 400;
