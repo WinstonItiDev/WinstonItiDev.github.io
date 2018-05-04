@@ -88,6 +88,13 @@ html {
 
 }
 
+.paragraph-list {
+	color: white;
+	height: 5px;
+	font-size: 80%;
+	white-space: nowrap;
+}
+
 .row-button-2 {
 	float: center;
 	margin-top: 10px;
@@ -99,6 +106,16 @@ html {
 
 .blog-button {
 	width: 50px;
+
+	margin-top: 10px;
+	margin-left: 0px;
+	padding: 0px;
+	color: white;
+	border-color: white;
+}
+
+.blog-button-numbered {
+	width: 50%;
 
 	margin-top: 10px;
 	margin-left: 0px;
@@ -121,6 +138,9 @@ html {
 .row-text-contents {
 	height:5%;
 	width: 100%;
+	margin-bottom: 20px;
+	white-space: nowrap;
+
 }
 
 .header-contents {
@@ -234,10 +254,23 @@ html {
 	text-align: center;
 }
 
+.paragraph-list {
+	color: white;
+}
+
 .blog-button {
 	width: 50px;
 	margin-top: 30px;
 	margin-left: 10px;
+	padding: 0px;
+	color: white;
+	border-color: white;
+}
+
+.blog-button-numbered {
+	width: 50%;
+	margin-top: 30px;
+	margin-left: 0%;
 	padding: 0px;
 	color: white;
 	border-color: white;
