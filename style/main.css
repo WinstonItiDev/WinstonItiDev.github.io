@@ -1,0 +1,225 @@
+  
+* {
+    border: 0.1px solid rgba(255,0,0,0);
+}
+
+html {
+	background-image: url(../images/original.jpeg);
+	background-color: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 100%;
+
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+
+}
+
+.container {
+
+}
+
+#logo-github {
+	background-image: url(../images/github-logo.png);
+	display: block;
+	margin-left: 10px;
+	margin-top: -5px;
+	width: 48px;
+	height: 48px;
+	background-repeat: no-repeat;
+}
+
+.container {
+	height: 100%;
+}
+
+.row-top {
+	width: 100%;
+	height: 150px;
+	display: block;
+
+
+
+}
+
+.row-top-column-1st {
+	height: 100%;
+	width: 100%;
+	
+}
+
+.row-top-column-2nd {
+	height: 100%;
+}
+
+.header-title {
+	margin-top: 50px;
+	color: white;
+	text-shadow: black;
+	white-space: nowrap;
+}
+
+.row-top-column-3rd {
+	height: 100%;
+}
+
+.row-break {
+	height: 15px;
+	background-color: #dddddd;
+}
+
+.row-main {
+	height: 600px;
+
+}
+
+.row-main-column-1st {
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+}
+
+.welcome-text {
+	text-align: center;
+	font-size: 4vw;
+	color: white;
+}
+
+.row-main-column-2nd {
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	
+}
+
+.paragraph {
+	color: white;
+}
+
+.row-main-column-3rd {
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+
+}
+
+.row-button-2 {
+	margin-right: 0px;
+	margin-left: 4px;
+	width: 294vw;
+	height: 38px;
+	display: flex;
+}
+
+.blog-button {
+	width: 50px;
+	padding: 0px;
+	color: white;
+	border-color: white;
+}
+
+.row-text-contents {
+	height: 35px;
+}
+
+.header-contents {
+	text-align: center;
+	color: white;
+}
+
+.footer-end {
+	height:100px;
+
+}
+
+@media (max-width: 550px) {
+
+html {
+	background-image: url(../images/original.jpeg);
+	background-color: rgba(0,0,0,0.4);
+	width: 100%;
+	height:100%;
+
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: stretch;
+    background-blend-mode: darken;
+
+}
+
+.row-top {
+	width: 100%;
+	height: 100px;
+}
+
+.row-top-column-1st {
+	width: 30%;
+
+}
+
+.welcome-text {
+	font-size: 5vw;
+}
+
+.row-top-column-2nd {
+	width: 40%;
+}
+
+.header-title {
+	font-size: 6vw;
+	margin-bottom: 5px;
+	text-align: center;
+	text-anchor: end;
+	text-shadow: black;
+	display: block;
+}
+
+.row-top-column-3rd {
+	width: 30%;
+
+}
+
+.row-break {
+	height: 15px;
+}
+
+.row-main {
+	height: 600px;
+}
+
+.row-main-column-1st {
+	width: 100%;
+	height: 8.6vw;
+	padding: 10px;
+
+}
+
+.row-main-column-2nd {
+	width: 100%;
+	height: 160px;
+	padding: 0px;
+}
+
+.paragraph {
+	text-align: center;
+}
+
+.row-main-column-3rd {
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+}
+
+.row-button-2 {
+	display: flex;
+	align-items:center;
+}
+
+
+
+
+}
