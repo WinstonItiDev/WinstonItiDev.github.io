@@ -1,10 +1,10 @@
-  
 * {
-    border: 0.1px solid rgba(255,0,0,0);
+    border: 0.7px solid rgba(255,0,0,0.0);
 }
 
 html {
-	background-image: url(../images/original.jpeg);
+	background-image: url(images/original.jpeg);
+	background-size: 2400px;
 	background-color: rgba(0,0,0,0.4);
 	width: 100%;
 	height: 100%;
@@ -17,23 +17,6 @@ html {
 
 }
 
-.container {
-
-}
-
-#logo-github {
-	background-image: url(../images/github-logo.png);
-	display: block;
-	margin-left: 10px;
-	margin-top: -5px;
-	width: 48px;
-	height: 48px;
-	background-repeat: no-repeat;
-}
-
-.container {
-	height: 100%;
-}
 
 .row-top {
 	width: 100%;
@@ -56,6 +39,7 @@ html {
 
 .header-title {
 	margin-top: 50px;
+	text-align: center;
 	color: white;
 	text-shadow: black;
 	white-space: nowrap;
@@ -82,9 +66,8 @@ html {
 }
 
 .welcome-text {
-	text-align: center;
-	font-size: 4vw;
 	color: white;
+	text-align: center;
 }
 
 .row-main-column-2nd {
@@ -106,27 +89,45 @@ html {
 }
 
 .row-button-2 {
-	margin-right: 0px;
-	margin-left: 4px;
-	width: 294vw;
-	height: 38px;
+	float: center;
+	margin-top: 10px;
+
+	width: 100%;
+	height: 10%;
 	display: flex;
 }
 
 .blog-button {
 	width: 50px;
+
+	margin-top: 10px;
+	margin-left: 0px;
 	padding: 0px;
 	color: white;
 	border-color: white;
 }
 
+#logo-github {
+	background-image: url(images/github-logo.png);
+	display: block;
+	margin-left: 10px;
+	margin-top: 4px;
+	width: 48px;
+	height: 48px;
+	background-repeat: no-repeat;
+}
+
+
 .row-text-contents {
-	height: 35px;
+	height:5%;
+	width: 100%;
 }
 
 .header-contents {
-	text-align: center;
+	margin-top: 0px;
+	text-align: left;
 	color: white;
+	height:100%;
 }
 
 .footer-end {
@@ -137,7 +138,7 @@ html {
 @media (max-width: 550px) {
 
 html {
-	background-image: url(../images/original.jpeg);
+	background-image: url(images/original.jpeg);
 	background-color: rgba(0,0,0,0.4);
 	width: 100%;
 	height:100%;
@@ -153,16 +154,21 @@ html {
 
 .row-top {
 	width: 100%;
-	height: 100px;
+	height: 50px;
 }
 
-.row-top-column-1st {
+.row-top-column-3rd {
 	width: 30%;
 
 }
 
+.header-title {
+	margin: 0px;
+	margin: 10px;
+}
+
 .welcome-text {
-	font-size: 5vw;
+	font-size: 100%;
 }
 
 .row-top-column-2nd {
@@ -193,15 +199,15 @@ html {
 
 .row-main-column-1st {
 	width: 100%;
-	height: 8.6vw;
+	height: 6%;
 	padding: 10px;
 
 }
 
 .row-main-column-2nd {
 	width: 100%;
-	height: 160px;
-	padding: 0px;
+	height:37%;
+	padding: 10px;
 }
 
 .paragraph {
@@ -210,13 +216,41 @@ html {
 
 .row-main-column-3rd {
 	width: 100%;
-	height: 100%;
+	height: 0%;
 	padding: 0px;
 }
 
 .row-button-2 {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 100%;
+	height:20%;
 	display: flex;
-	align-items:center;
+}
+
+.header-contents {
+	height: 24px;
+	text-align: center;
+}
+
+.blog-button {
+	width: 50px;
+	margin-top: 30px;
+	margin-left: 10px;
+	padding: 0px;
+	color: white;
+	border-color: white;
+}
+
+#logo-github {
+	background-image: url(images/github-logo.png);
+	display: block;
+	margin-left: 10px;
+	margin-top: 25px;
+	width: 48px;
+	height: 48px;
+	background-repeat: no-repeat;
 }
 
 
