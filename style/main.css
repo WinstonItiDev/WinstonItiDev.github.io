@@ -52,14 +52,13 @@ li {
 	text-align: center;
 	color: white;
 	text-shadow: black;
-	white-space: nowrap;
 	text-decoration-line: underline;
 }
 
 .header-subtitle {
 	margin-top: 0px;
 	text-align: center;
-	color: rgb(200,250,200);
+	color: rgb(255,255,255);
 	text-shadow: black;
 	white-space: nowrap;
 }
@@ -151,6 +150,11 @@ li {
 	width: 48px;
 	height: 48px;
 	background-repeat: no-repeat;
+}
+
+.bg1 {
+	height:100%;
+	width:100%;
 }
 
 
