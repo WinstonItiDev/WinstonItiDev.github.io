@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="../javascript-basics.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="../style/main.css">
+  <title>Web Design Explorations - Winston Iti</title>
+</head>
+
+<body onload="init();">
+  <div class="container">
+
+  	<div class="row">
+
+  	  <div class="four columns">
+  	  </div>
+  	  <div class="four columns">
+  	    <h1 class="header-title">Web Design Explorations</h1>
+        <h5 class="header-subtitle">Javascript Basics</h5>
+  	  </div>
+  	  <div class="four columns">
+  	  </div>
+
+  	</div>
+
+    <div class="row-break">
+      
+    </div>
+
+    <div class="row">
+
+      <div class="two columns"></div>
+      <div class="eight columns">
+      <canvas id="myCanvas"></canvas>
+      <p class="header-subtitle">Bouncing Ball example</p>
+      </div>
+      <div class="two columns">
+      </div>
+
+    </div>
+
+     <div class="row-break">
+      
+    </div>
+
+  	<div class="row">
+
+      <div class="four columns">
+        <h5 class="blog-question-text">How does JavaScript compare to HTML and CSS?</h5>
+      </div>
+      <div class="four columns">
+        <p class="paragraph">I think first and foremost has similarities with java and other languages like C in terms of its syntax.
+        But because Javascript in designed with HTML and CSS in mind, it allows you extended control on the content of the your website.
+        HTML and CSS in retrospect seem archaic to me, its use of variables and classes is less obvious and more practical.
+        </p>
+      </div>
+       <div class="four columns blog-select-col">
+        <h5 class="header-contents">Blog contents:</h5>
+        <p class="paragraph-list">1. Reflection</p>
+          <p class="paragraph-list">2. Time and Habits</p>
+          <p class="paragraph-list">3. Emotional Intelligence</p>
+          <p class="paragraph-list">4. HTML CSS DOM Part 1</p>
+          <p class="paragraph-list">5. HTML CSS DOM Part 2</p>
+          <p class="paragraph-list">6. Design to Web</p>
+          <p class="paragraph-list">7. Meditation Process</p>
+          <div class="row row-button-2">
+          <a class="button button-primary blog-button-numbered" href="../index.html">Back</a>
+          <a class="button button-primary blog-button-numbered" href="c1-reflection-blog.html">1</a>
+          <a class="button button-primary blog-button-numbered" href="c1-time-and-habits-blog.html">2</a>
+          <a class="button button-primary blog-button-numbered" href="c2-emotional-intelligence.html">3</a>
+          <a class="button button-primary blog-button-numbered" href="c3-meditation-process.html">4</a>
+          <a class="button button-primary blog-button-numbered" href="t2-html-css-dom-p1.html">5</a>
+          <a class="button button-primary blog-button-numbered" href="t2-html-css-dom-p2.html">6</a>
+          <a class="button button-primary blog-button-numbered" href="t3-design-to-web-blog.html">7</a>
+          <button class="blog-button-numbered">8</button>
+
+        </div>
+      </div>
+
+  	</div>
+
+    <div class="row">
+      <div class="three columns">
+        <h5 class="blog-question-text"> Explain control flow and loops using an example process from everyday life, for example 'waking up' or 'brushing your teeth'.</h5>
+      </div>
+      <div class="eight columns">
+        <p class="paragraph">In javascript, we can call for the DOM elements that are set in an HTML file. For example, the 'document' function tells javascript
+        that we are calling for the DOM (Document-Object-Model)</p>
+        <p class="paragraph">and we access the functions within the document function by using the 'getElementByID', 'getElementByClassName',
+         or 'getElementByTagName'.</p>
+
+<pre><code>
+function run() { 
+
+  var title = document.getElementByClassName("header-title");
+
+}
+</code></pre>
+
+        <p class="paragraph">
+        We could create functions which activates whatever code is included in that function. For example, we could take
+        that example using "take a shower" or "brushing teeth" and build a function like so:
+        </p>
+
+<pre><code>
+var timesTakenShower = 0;
+var timesBrushedTeeth = 0;
+
+function takeShower() {
+  timesTakenShower = timesTakenShower + 1;
+}
+
+function brushTeeth() {
+  timesBrushedTeeth = timesBrushedTeet + 1;
+}
+</code></pre>   
+
+      <button class="button button-primary" onclick="takeShower()">Take Shower</button>
+      <button class="button button-primary" onclick="brushTeeth()">Brush Teeth</button>
+      <div class="two columns">
+        <p class="paragraph" id="elem1">Shower:</p>
+      </div>
+      <div class="two columns">
+        <p class="paragraph" id="elem2">Bath:</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="three columns">
+      </div>
+      <div class="nine columns">
+
+<pre><code>var dogs = ["Snoop", "Clifford", "Lassie", "Toto"];
+var text = ""
+
+function showDogList() {
+
+for (var i = 0;i &lt; dogs.length; i++) {
+    text += dogs[i]+"#";
+}
+document.getElementById("elem3").innerHTML = text;
+
+//Tbe dogs array is declared and a loop is initialized in the function showDogList.
+}</code></pre>
+
+
+
+        <p class="paragraph" id="elem3">Bath</p>
+      </div>
+      <div class="three columns">
+      </div>  
+    </div>
+
+    <div class="row">
+      <div class="three columns">
+        <h5 class="blog-question-text">Explain the difference between accessing data from arrays and objects.</h5>
+      </div>  
+      <div class="nine columns">
+        <p class="paragraph">An array uses a numeric index, which can be used to store data such as numbers, in the numeric index. 
+        Usually the index starts at 0 or called zero-based.</p>
+        <p class="paragraph">So for Example:</p>
+<pre>
+  <code>var testArray = [1,4,3,2,4];    
+var dogNames = ["Snoop", "Clifford", "Lassie", "Toto"];
+
+dogNames[3] = "Snowy";
+
+//This will replace Toto as the third
+  </code>
+</pre>
+
+
+        <p class="paragraph">With objects, they're similar to arrays except instead of using indexes to access and store data, you can store data in objects
+        with the use of properties. Like the properties of an object such as an apple. It has a color, a size, and a geneaology. These are all properties which can
+        be used to define an object.</p>
+
+        <pre><code>// Example 
+
+var myDog = { 
+
+    "name": Clifford"
+    "legs": 4,
+    "tails": 1,
+    "color": red,
+    "friends": ["everything!"]
+
+}       </code></pre>
+      </div>  
+      <div class="three columns">
+      </div>  
+    </div>
+
+    <div class="row">
+      <div class="three columns">
+        <h5 class="blog-question-text">Explain what functions are and why they are useful.</h5>
+      </div>  
+      <div class="nine columns">
+        <p class="paragraph">Functions (or methods) is a mechanism that holds a set of properties defined by the code. This will usually have its own local variables etc that can only be used inside the function and global variables can be initialized inside functions. This mechanism can be activated by "running" the function.</p>
+
+        <p class="paragraph">You can also set some parameters, and these parameters will be calculated based on the code in side the function. Some functions are built into the engine and can be called on request for example: document.getElementByID.innerHTML I think of document as the object and innerHTML as the function.</p>
+
+        <p class="paragraph">Example with celsius conversion to Fahrenheit:</p>
+
+<pre><code>function convertToF(celsius) {
+  var fahrenheit = (celsius * (9/5)) + 32;
+  
+  if ( typeof fahrenheit !== 'undefined' ) {
+  return fahrenheit;
+  } else {
+    return 'fahrenheit not defined';
+  }
+}
+convertToF(30);
+}</code></pre>
+
+      </div>  
+      <div class="three columns">
+      </div>  
+    </div>
+  </div>
+</div>
+</body>
+
+
+</html>
+
