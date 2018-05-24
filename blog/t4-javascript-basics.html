@@ -52,8 +52,8 @@
       </div>
       <div class="four columns">
         <p class="paragraph">I think first and foremost has similarities with java and other languages like C in terms of its syntax.
-        But because Javascript in designed with HTML and CSS in mind, it allows you extended control on the content of the your website.
-        HTML and CSS in retrospect seem archaic to me, its use of variables and classes is less obvious and more practical.
+        But because Javascript is designed with HTML and CSS in mind, it gives you extended control of the content of the your website.
+        With HTML and CSS, its use of variables and classes is less obvious and more practical.
         </p>
       </div>
        <div class="four columns blog-select-col">
@@ -65,6 +65,7 @@
           <p class="paragraph-list">5. HTML CSS DOM Part 2</p>
           <p class="paragraph-list">6. Design to Web</p>
           <p class="paragraph-list">7. Meditation Process</p>
+          <p class="paragraph-list">8. Javascript Basics</p>
           <div class="row row-button-2">
           <a class="button button-primary blog-button-numbered" href="../index.html">Back</a>
           <a class="button button-primary blog-button-numbered" href="c1-reflection-blog.html">1</a>
@@ -138,11 +139,12 @@ var text = ""
 function showDogList() {
 
 for (var i = 0;i &lt; dogs.length; i++) {
-    text += dogs[i]+"#";
+    text += dogs[i]+"&lt;br&gt;";
 }
 document.getElementById("elem3").innerHTML = text;
 
-//Tbe dogs array is declared and a loop is initialized in the function showDogList.
+//The dogs array is declared and
+//a loop is initialized in the function showDogList.
 }</code></pre>
 
 
@@ -165,9 +167,8 @@ document.getElementById("elem3").innerHTML = text;
   <code>var testArray = [1,4,3,2,4];    
 var dogNames = ["Snoop", "Clifford", "Lassie", "Toto"];
 
+//This will replace Toto as the third dog.
 dogNames[3] = "Snowy";
-
-//This will replace Toto as the third
   </code>
 </pre>
 
@@ -219,6 +220,11 @@ convertToF(30);
       <div class="three columns">
       </div>  
     </div>
+  </div>
+  <div class="row-break">
+  </div>
+
+  <div class="row footer-end">
   </div>
 </div>
 </body>
