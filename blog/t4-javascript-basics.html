@@ -93,7 +93,7 @@
         <p class="paragraph">and we access the functions within the document function by using the 'getElementByID', 'getElementByClassName',
          or 'getElementByTagName'.</p>
 
-<pre><code>
+<pre><code class="codewrap">
 function run() { 
 
   var title = document.getElementByClassName("header-title");
@@ -106,7 +106,7 @@ function run() {
         that example using "take a shower" or "brushing teeth" and build a function like so:
         </p>
 
-<pre><code>
+<pre><code class="codewrap">
 var timesTakenShower = 0;
 var timesBrushedTeeth = 0;
 
@@ -119,8 +119,8 @@ function brushTeeth() {
 }
 </code></pre>   
 
-      <button class="button button-primary" onclick="takeShower()">Take Shower</button>
-      <button class="button button-primary" onclick="brushTeeth()">Brush Teeth</button>
+      <button class="button button-primary takeShower" onclick="takeShower()">Take Shower</button>
+      <button class="button button-primary brushTeeth" onclick="brushTeeth()">Brush Teeth</button>
       <div class="two columns">
         <p class="paragraph" id="elem1">Shower:</p>
       </div>
@@ -134,7 +134,7 @@ function brushTeeth() {
       </div>
       <div class="nine columns">
 
-<pre><code>var dogs = ["Snoop", "Clifford", "Lassie", "Toto"];
+<pre><code class="codewrap">var dogs = ["Snoop", "Clifford", "Lassie", "Toto"];
 var text = ""
 
 function showDogList() {
@@ -165,12 +165,11 @@ document.getElementById("elem3").innerHTML = text;
         Usually the index starts at 0 or called zero-based.</p>
         <p class="paragraph">So for Example:</p>
 <pre>
-  <code>var testArray = [1,4,3,2,4];    
+  <code class="codewrap">var testArray = [1,4,3,2,4];    
 var dogNames = ["Snoop", "Clifford", "Lassie", "Toto"];
 
 //This will replace Toto as the third dog.
-dogNames[3] = "Snowy";
-  </code>
+dogNames[3] = "Snowy";</code>
 </pre>
 
 
@@ -178,16 +177,13 @@ dogNames[3] = "Snowy";
         with the use of properties. Like the properties of an object such as an apple. It has a color, a size, and a geneaology. These are all properties which can
         be used to define an object.</p>
 
-        <pre><code>// Example 
-
+        <pre><code class="codewrap">// Example
 var myDog = { 
-
     "name": Clifford"
     "legs": 4,
     "tails": 1,
     "color": red,
     "friends": ["everything!"]
-
 }       </code></pre>
       </div>  
       <div class="three columns">
@@ -205,7 +201,7 @@ var myDog = {
 
         <p class="paragraph">Example with celsius conversion to Fahrenheit:</p>
 
-<pre><code>function convertToF(celsius) {
+<pre><code class="codewrap">function convertToF(celsius) {
   var fahrenheit = (celsius * (9/5)) + 32;
   
   if ( typeof fahrenheit !== 'undefined' ) {
